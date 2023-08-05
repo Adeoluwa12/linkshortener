@@ -3,8 +3,8 @@ const mongoose = require('mongoose');
 const ejs = require('ejs');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-const { urlController } = require('./controllers/urlController');
-const { authController } = require('./controllers/authController');
+const { urlController } = require('./controllers/urlcontroller');
+const { authController } = require('./controllers/authcontroller');
 
 
 const app = express();
