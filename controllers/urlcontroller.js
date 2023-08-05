@@ -2,7 +2,7 @@ const validUrl = require('valid-url');
 const shortid = require('shortid');
 const QRCode = require('qrcode');
 
-const { Url } = require('../models/Url');
+const { Url } = require('../models/url');
 
 module.exports.urlController = {
   getUrls: async (req, res) => {
